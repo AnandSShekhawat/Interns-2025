@@ -4,7 +4,7 @@ metadata:
   name: firstpod
 spec:
   containers:
-    - image: coolgourav147/nginx-custom
+    - image: nginx-custom
       name: firstcontainer
       imagePullPolicy: Never
       volumeMounts:
